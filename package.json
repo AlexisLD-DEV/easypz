@@ -1,0 +1,58 @@
+{
+  "name": "quiz-platform-v1",
+  "version": "1.0.0",
+  "description": "",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "wrangler deploy",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "smoke:live30": "node scripts/live-30-smoke.mjs",
+    "e2e": "playwright test",
+    "e2e:seed": "node scripts/e2e-seed.mjs",
+    "db:migrate:local": "wrangler d1 migrations apply quiz_english --local",
+    "db:migrate:remote": "wrangler d1 migrations apply quiz_english --remote"
+  },
+  "overrides": {
+    "undici": "^7.29.0",
+    "nanoid": "^3.3.18",
+    "postcss": "^8.5.23",
+    "sharp": "^0.35.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@lottiefiles/dotlottie-react": "^0.19.4",
+    "lucide-react": "^1.16.0",
+    "motion": "^12.40.0",
+    "qrcode": "^1.5.4",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.42.0",
+    "@cloudflare/vitest-pool-workers": "^0.16.17",
+    "@cloudflare/workers-types": "^4.20260617.1",
+    "@playwright/test": "^1.62.1",
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^16.3.2",
+    "@types/qrcode": "^1.5.6",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.2",
+    "jsdom": "^30.0.1",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.13",
+    "vitest": "^4.1.6",
+    "wrangler": "^4.102.0",
+    "ws": "^8.21.0"
+  }
+}

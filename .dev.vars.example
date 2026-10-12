@@ -1,0 +1,9 @@
+# Copie ce fichier en `.dev.vars` pour `wrangler dev` — ce fichier-là n'est jamais versionné.
+# Aucune valeur réelle n'est fournie ici, remplace-les par les tiennes.
+
+ADMIN_EMAIL=prof@example.org
+APP_ORIGIN=http://127.0.0.1:5173
+EMAIL_FROM=noreply@example.org
+LIVE_SESSION_ROOM=quiz-english-live
+MEDIA_BUCKET=quiz-english-media
+RESEND_API_KEY=re_remplace_par_ta_cle

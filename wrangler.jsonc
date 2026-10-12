@@ -1,0 +1,64 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "quiz-english",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-05-18",
+  "routes": [
+    {
+      "pattern": "easypz.fr",
+      "custom_domain": true
+    },
+    {
+      "pattern": "www.easypz.fr",
+      "custom_domain": true
+    },
+    {
+      "pattern": "easypz.study",
+      "custom_domain": true
+    },
+    {
+      "pattern": "www.easypz.study",
+      "custom_domain": true
+    },
+    {
+      "pattern": "quiz.ledeunf.fr",
+      "custom_domain": true
+    }
+  ],
+  "assets": {
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "quiz_english",
+      "database_id": "b4cc976b-2e8b-41e1-a7fe-a6ec6efc49de"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "MEDIA_BUCKET",
+      "bucket_name": "quiz-english-media"
+    }
+  ],
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "LIVE_SESSION_ROOM",
+        "class_name": "LiveSessionRoom"
+      }
+    ]
+  },
+  "migrations": [
+    {
+      "tag": "v1",
+      "new_sqlite_classes": ["LiveSessionRoom"]
+    }
+  ],
+  "vars": {
+    "ADMIN_EMAIL": "alexis@ledeunf.fr",
+    "APP_ORIGIN": "https://easypz.fr",
+    "EMAIL_FROM": "EasyPZ <quiz@ledeunf.fr>"
+  }
+}

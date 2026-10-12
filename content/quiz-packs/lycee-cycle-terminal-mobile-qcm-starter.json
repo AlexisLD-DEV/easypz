@@ -1,0 +1,1040 @@
+{
+  "version": 1,
+  "ownerEmail": "alexis@ledeunf.fr",
+  "source": "Programme de langues vivantes de premiere et terminale generales et technologiques",
+  "quizzes": [
+    {
+      "slug": "premiere-private-public-space-mobile",
+      "title": "Private and public spaces",
+      "description": "QCM about home, public places, social behaviour and the boundary between private and public life.",
+      "level": "B1 - B1+",
+      "tags": [
+        "premiere",
+        "private space",
+        "public space",
+        "society",
+        "mobile"
+      ],
+      "schoolLevel": "premiere",
+      "cefrLevel": "B1",
+      "programAxis": "cycle_terminal_private_public_space",
+      "sourceUrls": [
+        "https://eduscol.education.fr/document/24679/download"
+      ],
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "What is a 'public space'?",
+          "choices": [
+            "A place open to many people",
+            "A private home",
+            "A restricted area for staff only",
+            "A personal online account"
+          ],
+          "correct": 0,
+          "explanation": "A public space can be used or accessed by many people."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose the best sentence.",
+          "choices": [
+            "People should respect shared spaces.",
+            "People should to respect shared spaces.",
+            "People respects shared spaces.",
+            "People respecting shared spaces."
+          ],
+          "correct": 0,
+          "explanation": "Use 'should + base verb'."
+        },
+        {
+          "type": "true_false",
+          "prompt": "A park can be both a place for leisure and a place for civic life.",
+          "answer": true,
+          "explanation": "Parks can host sport, meetings, celebrations or protests."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Which phrase expresses a prohibition in a public place?",
+          "choices": [
+            "Smoking is not allowed here.",
+            "Smoking is permitted in this area.",
+            "This area is open until 8 p.m.",
+            "Please keep this area clean."
+          ],
+          "correct": 0,
+          "explanation": "'Smoking is not allowed here' clearly expresses a prohibition."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "What does 'privacy' mean?",
+          "choices": [
+            "Control over personal life and information",
+            "Being watched in a public space",
+            "Sharing every detail online",
+            "Access to public services"
+          ],
+          "correct": 0,
+          "explanation": "Privacy concerns personal life, data and limits."
+        },
+        {
+          "type": "true_false",
+          "prompt": "Posting a private photo online can make it part of public life.",
+          "answer": true,
+          "explanation": "Online posts can be copied, shared and seen by others."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Which connector introduces contrast?",
+          "choices": [
+            "whereas",
+            "because",
+            "therefore",
+            "since"
+          ],
+          "correct": 0,
+          "explanation": "'Whereas' contrasts two ideas."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose the sentence that gives an opinion.",
+          "choices": [
+            "In my view, cameras can protect people.",
+            "Cameras are installed at the station.",
+            "The camera is above the entrance.",
+            "There are cameras in many public places."
+          ],
+          "correct": 0,
+          "explanation": "'In my view' introduces a personal opinion."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "What is a 'community centre'?",
+          "choices": [
+            "A local place for activities and services",
+            "A private home for one family",
+            "A workplace closed to the public",
+            "An online group with no local space"
+          ],
+          "correct": 0,
+          "explanation": "Community centres serve local residents."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Pick the best word: Meeting in public spaces can encourage social ___.",
+          "choices": [
+            "interaction",
+            "isolation",
+            "surveillance",
+            "restriction"
+          ],
+          "correct": 0,
+          "explanation": "Social interaction means communication and contact between people."
+        }
+      ]
+    },
+    {
+      "slug": "premiere-territory-memory-identity-mobile",
+      "title": "Territory, memory and identity",
+      "description": "QCM about places, memory, migration, belonging and cultural identity.",
+      "level": "B1 - B1+",
+      "tags": [
+        "premiere",
+        "territory",
+        "memory",
+        "identity",
+        "mobile"
+      ],
+      "schoolLevel": "premiere",
+      "cefrLevel": "B1",
+      "programAxis": "cycle_terminal_territory_memory",
+      "sourceUrls": [
+        "https://eduscol.education.fr/document/24679/download"
+      ],
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "What does 'belonging' mean?",
+          "choices": [
+            "Feeling connected to a place or group",
+            "Travelling without a destination",
+            "Owning a building legally",
+            "Moving away from every community"
+          ],
+          "correct": 0,
+          "explanation": "Belonging is linked to identity and connection."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose the correct sentence.",
+          "choices": [
+            "My grandparents moved to this city in 1975.",
+            "My grandparents move to this city in 1975.",
+            "My grandparents have moved to this city in 1975.",
+            "My grandparents were move to this city in 1975."
+          ],
+          "correct": 0,
+          "explanation": "Use the past simple with a finished date."
+        },
+        {
+          "type": "true_false",
+          "prompt": "A monument can keep the memory of an event alive.",
+          "answer": true,
+          "explanation": "Monuments often commemorate people or events."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Which word means moving from one place or country to another?",
+          "choices": [
+            "migration",
+            "tourism",
+            "translation",
+            "commemoration"
+          ],
+          "correct": 0,
+          "explanation": "Migration is movement from one place or country to another."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Pick the best connector: People moved there ___ they needed work.",
+          "choices": [
+            "because",
+            "although",
+            "whereas",
+            "despite"
+          ],
+          "correct": 0,
+          "explanation": "'Because' gives a reason."
+        },
+        {
+          "type": "true_false",
+          "prompt": "A territory is only a physical space; it can never have symbolic meaning.",
+          "answer": false,
+          "explanation": "A territory can also carry memory, identity and power."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "What is 'heritage'?",
+          "choices": [
+            "Cultural elements inherited from the past",
+            "Recent fashion trends",
+            "Temporary online posts",
+            "Modern transport timetables"
+          ],
+          "correct": 0,
+          "explanation": "Heritage can include places, stories, objects and traditions."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose the best comparative.",
+          "choices": [
+            "This neighbourhood is more diverse than before.",
+            "This neighbourhood is diverser than before.",
+            "This neighbourhood diverse than before.",
+            "This neighbourhood is most diverse than before."
+          ],
+          "correct": 0,
+          "explanation": "Use 'more diverse than'."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "What does 'roots' mean in an identity context?",
+          "choices": [
+            "Origins or family background",
+            "A current street address",
+            "A legal passport only",
+            "Future career plans"
+          ],
+          "correct": 0,
+          "explanation": "Roots can metaphorically mean origins."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Which sentence summarizes a balanced view?",
+          "choices": [
+            "A place can change while keeping traces of its past.",
+            "A place loses all identity when it changes.",
+            "A place can only exist through the past.",
+            "A place never changes if people remember it."
+          ],
+          "correct": 0,
+          "explanation": "This sentence links change and memory."
+        }
+      ]
+    },
+    {
+      "slug": "premiere-art-power-protest-mobile",
+      "title": "Art, power and protest",
+      "description": "QCM about art as expression, propaganda, protest and social change.",
+      "level": "B1 - B1+",
+      "tags": [
+        "premiere",
+        "art",
+        "power",
+        "protest",
+        "mobile"
+      ],
+      "schoolLevel": "premiere",
+      "cefrLevel": "B1",
+      "programAxis": "cycle_terminal_art_power",
+      "sourceUrls": [
+        "https://eduscol.education.fr/document/24679/download"
+      ],
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "What is a common purpose of a protest song?",
+          "choices": [
+            "Express criticism and mobilize people",
+            "Avoid every social or political message",
+            "Make criticism impossible",
+            "Describe only neutral information"
+          ],
+          "correct": 0,
+          "explanation": "Protest songs can criticize and encourage action."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose the passive voice.",
+          "choices": [
+            "The mural was painted by local artists.",
+            "The mural painted by local artists was.",
+            "The mural paint local artists.",
+            "Local artists was painted the mural."
+          ],
+          "correct": 0,
+          "explanation": "Passive voice: 'was painted by...'."
+        },
+        {
+          "type": "true_false",
+          "prompt": "Art can be used to support power or to challenge it.",
+          "answer": true,
+          "explanation": "Art can serve authority, resistance or both."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "What is 'propaganda'?",
+          "choices": [
+            "Messages designed to influence opinions",
+            "Neutral information with no intention",
+            "A public debate between equal voices",
+            "An artistic technique with no message"
+          ],
+          "correct": 0,
+          "explanation": "Propaganda aims to shape beliefs or behaviour."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Pick the best word: The poster ___ citizens to vote.",
+          "choices": [
+            "encourages",
+            "encourage",
+            "encouraged",
+            "is encourage"
+          ],
+          "correct": 0,
+          "explanation": "With a singular subject in the present simple, use '-s'."
+        },
+        {
+          "type": "true_false",
+          "prompt": "A caricature often exaggerates features to make a political point.",
+          "answer": true,
+          "explanation": "Caricature uses exaggeration and satire."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Which phrase expresses purpose?",
+          "choices": [
+            "in order to raise awareness",
+            "although it raises awareness",
+            "because it raised awareness",
+            "instead of raising awareness"
+          ],
+          "correct": 0,
+          "explanation": "'In order to' introduces purpose."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "What does 'censorship' mean?",
+          "choices": [
+            "Controlling or banning expression",
+            "Protecting freedom of expression",
+            "Encouraging public debate",
+            "Publishing every opinion freely"
+          ],
+          "correct": 0,
+          "explanation": "Censorship limits what can be said, shown or published."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose the sentence that analyses an image.",
+          "choices": [
+            "The dark colours suggest fear and tension.",
+            "The picture is very large.",
+            "The artist used blue paint.",
+            "The frame is made of wood."
+          ],
+          "correct": 0,
+          "explanation": "This sentence connects visual details and meaning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Which word means 'making people aware of a problem'?",
+          "choices": [
+            "awareness-raising",
+            "censorship",
+            "propaganda",
+            "entertainment"
+          ],
+          "correct": 0,
+          "explanation": "Awareness-raising draws attention to an issue."
+        }
+      ]
+    },
+    {
+      "slug": "premiere-citizenship-rights-mobile",
+      "title": "Citizenship and rights",
+      "description": "QCM about civic engagement, rights, duties, media and democratic participation.",
+      "level": "B1 - B1+",
+      "tags": [
+        "premiere",
+        "citizenship",
+        "rights",
+        "democracy",
+        "mobile"
+      ],
+      "schoolLevel": "premiere",
+      "cefrLevel": "B1",
+      "programAxis": "cycle_terminal_citizenship",
+      "sourceUrls": [
+        "https://eduscol.education.fr/document/24679/download"
+      ],
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "What is a 'citizen'?",
+          "choices": [
+            "A member of a political community with rights and duties",
+            "A person who only visits a country",
+            "A consumer with no public role",
+            "A person outside every community"
+          ],
+          "correct": 0,
+          "explanation": "Citizenship includes rights, duties and participation."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose the best sentence.",
+          "choices": [
+            "Citizens can take part in public debates.",
+            "Citizens can to take part.",
+            "Citizens taking part can.",
+            "Citizens can took part."
+          ],
+          "correct": 0,
+          "explanation": "Use 'can + base verb'."
+        },
+        {
+          "type": "true_false",
+          "prompt": "Voting is one possible form of democratic participation.",
+          "answer": true,
+          "explanation": "Voting is a common civic action in democracies."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "What is a 'petition'?",
+          "choices": [
+            "A formal request signed by people",
+            "A private message to one friend",
+            "An election result",
+            "A newspaper headline"
+          ],
+          "correct": 0,
+          "explanation": "A petition gathers support for a request."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Pick the best connector: Citizens need information ___ they can make choices.",
+          "choices": [
+            "so that",
+            "although",
+            "whereas",
+            "despite"
+          ],
+          "correct": 0,
+          "explanation": "'So that' introduces a purpose or result."
+        },
+        {
+          "type": "true_false",
+          "prompt": "A right is exactly the same thing as a duty.",
+          "answer": false,
+          "explanation": "Rights are protections or freedoms; duties are responsibilities."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Which phrase expresses obligation?",
+          "choices": [
+            "People have to respect the law.",
+            "People respect the law if they want.",
+            "People respected the law yesterday.",
+            "People might respect the law one day."
+          ],
+          "correct": 0,
+          "explanation": "'Have to' expresses obligation."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "What does 'freedom of speech' mean?",
+          "choices": [
+            "The right to express opinions",
+            "The right to vote in an election",
+            "The duty to respect the law",
+            "The right to keep personal data private"
+          ],
+          "correct": 0,
+          "explanation": "Freedom of speech concerns expression and opinion."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose the sentence showing contrast.",
+          "choices": [
+            "Social media can inform people, but it can also spread rumours.",
+            "Social media can inform people and share updates.",
+            "Social media spreads messages quickly.",
+            "Social media is used by many citizens."
+          ],
+          "correct": 0,
+          "explanation": "'But' introduces contrast."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "What is 'civic engagement'?",
+          "choices": [
+            "Taking action in public or community life",
+            "Following private entertainment only",
+            "Buying products as a consumer",
+            "Avoiding every public debate"
+          ],
+          "correct": 0,
+          "explanation": "Civic engagement means participating in society."
+        }
+      ]
+    },
+    {
+      "slug": "terminale-diversity-inclusion-mobile",
+      "title": "Diversity and inclusion",
+      "description": "QCM about diversity, inclusion, stereotypes and equal opportunities.",
+      "level": "B1+ - B2",
+      "tags": [
+        "terminale",
+        "diversity",
+        "inclusion",
+        "equality",
+        "mobile"
+      ],
+      "schoolLevel": "terminale",
+      "cefrLevel": "B1+",
+      "programAxis": "cycle_terminal_diversity_inclusion",
+      "sourceUrls": [
+        "https://eduscol.education.fr/document/24679/download"
+      ],
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "What does 'inclusion' mean?",
+          "choices": [
+            "Making sure different people can participate",
+            "Keeping people apart from public life",
+            "Giving access to only one group",
+            "Avoiding contact between communities"
+          ],
+          "correct": 0,
+          "explanation": "Inclusion means enabling participation and belonging."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose the correct sentence.",
+          "choices": [
+            "Everyone should be treated fairly.",
+            "Everyone should treated fairly.",
+            "Everyone should to be treated.",
+            "Everyone treating fairly should."
+          ],
+          "correct": 0,
+          "explanation": "Use 'should be + past participle' for this passive form."
+        },
+        {
+          "type": "true_false",
+          "prompt": "A stereotype is an oversimplified idea about a group.",
+          "answer": true,
+          "explanation": "Stereotypes reduce people to fixed ideas."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "What does 'equal opportunities' mean?",
+          "choices": [
+            "A fair chance for everyone",
+            "The same result for every person",
+            "A competition without preparation",
+            "A private decision by one person"
+          ],
+          "correct": 0,
+          "explanation": "Equal opportunities means people should have fair access to chances."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Pick the best phrase to nuance an argument.",
+          "choices": [
+            "On the one hand... on the other hand...",
+            "For example... for example...",
+            "As a result... as a result...",
+            "In conclusion... in conclusion..."
+          ],
+          "correct": 0,
+          "explanation": "This structure balances two sides of an argument."
+        },
+        {
+          "type": "true_false",
+          "prompt": "Accessibility can concern buildings, websites and school activities.",
+          "answer": true,
+          "explanation": "Accessibility is not limited to physical spaces."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Which word means treating someone unfairly because of who they are?",
+          "choices": [
+            "discrimination",
+            "inclusion",
+            "representation",
+            "diversity"
+          ],
+          "correct": 0,
+          "explanation": "Discrimination is unfair treatment linked to identity or status."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose the best connector: The policy is useful; ___, it is not enough.",
+          "choices": [
+            "however",
+            "because",
+            "therefore",
+            "so"
+          ],
+          "correct": 0,
+          "explanation": "'However' introduces contrast."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "What does 'representation' mean in media?",
+          "choices": [
+            "The way people or groups are shown",
+            "The number of viewers only",
+            "The camera angle only",
+            "The legal status of a character"
+          ],
+          "correct": 0,
+          "explanation": "Representation concerns images, roles and narratives."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Which sentence is the most balanced?",
+          "choices": [
+            "Diversity can enrich society if inclusion is actively supported.",
+            "Diversity automatically solves every problem.",
+            "Inclusion is unnecessary when society is diverse.",
+            "Diversity and inclusion are exactly the same idea."
+          ],
+          "correct": 0,
+          "explanation": "This sentence connects diversity with practical inclusion."
+        }
+      ]
+    },
+    {
+      "slug": "terminale-innovation-progress-ethics-mobile",
+      "title": "Innovation, progress and ethics",
+      "description": "QCM about scientific progress, technology, benefits, risks and ethical questions.",
+      "level": "B1+ - B2",
+      "tags": [
+        "terminale",
+        "innovation",
+        "progress",
+        "ethics",
+        "mobile"
+      ],
+      "schoolLevel": "terminale",
+      "cefrLevel": "B1+",
+      "programAxis": "cycle_terminal_innovation_progress",
+      "sourceUrls": [
+        "https://eduscol.education.fr/document/24679/download"
+      ],
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "What is an 'ethical issue'?",
+          "choices": [
+            "A question about what is right or wrong",
+            "A technical detail with no human impact",
+            "A faster way to charge a device",
+            "A scientific result that needs no debate"
+          ],
+          "correct": 0,
+          "explanation": "Ethics concerns values, responsibility and moral choices."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose the best sentence.",
+          "choices": [
+            "Technology has changed the way people communicate.",
+            "Technology have changed the way.",
+            "Technology changed have people.",
+            "Technology has change communicate."
+          ],
+          "correct": 0,
+          "explanation": "Use 'has + past participle': has changed."
+        },
+        {
+          "type": "true_false",
+          "prompt": "Innovation can create new possibilities and new risks.",
+          "answer": true,
+          "explanation": "Progress often has benefits and limits."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "What does 'breakthrough' mean?",
+          "choices": [
+            "An important discovery or development",
+            "A minor technical problem",
+            "A repeated old method",
+            "A result that changes nothing"
+          ],
+          "correct": 0,
+          "explanation": "A breakthrough is a major step forward."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Pick the best connector: The device is useful; ___, it raises privacy concerns.",
+          "choices": [
+            "nevertheless",
+            "because",
+            "so",
+            "therefore"
+          ],
+          "correct": 0,
+          "explanation": "'Nevertheless' introduces a contrast."
+        },
+        {
+          "type": "true_false",
+          "prompt": "Artificial intelligence can be discussed through both opportunities and responsibilities.",
+          "answer": true,
+          "explanation": "AI raises questions about work, bias, privacy and creativity."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Which expression introduces a consequence?",
+          "choices": [
+            "as a result",
+            "despite",
+            "whereas",
+            "although"
+          ],
+          "correct": 0,
+          "explanation": "'As a result' introduces a consequence."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "What does 'sustainable technology' suggest?",
+          "choices": [
+            "Technology designed with environmental responsibility",
+            "Technology that is replaced immediately",
+            "Technology that ignores resources",
+            "Technology made only for short-term profit"
+          ],
+          "correct": 0,
+          "explanation": "Sustainable technology considers long-term environmental impact."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose the sentence that weighs pros and cons.",
+          "choices": [
+            "While innovation saves time, it may increase dependence on devices.",
+            "Innovation saves time and is always positive.",
+            "Innovation creates risks and has no benefits.",
+            "Devices are popular in many countries."
+          ],
+          "correct": 0,
+          "explanation": "'While' can introduce a concession or contrast."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "What is 'data protection'?",
+          "choices": [
+            "Keeping personal information safe",
+            "Collecting as much data as possible",
+            "Sharing passwords with other users",
+            "Publishing private information online"
+          ],
+          "correct": 0,
+          "explanation": "Data protection concerns privacy and security."
+        }
+      ]
+    },
+    {
+      "slug": "terminale-fiction-reality-media-mobile",
+      "title": "Fiction, reality and media",
+      "description": "QCM about storytelling, news, images, reality, fiction and critical thinking.",
+      "level": "B1+ - B2",
+      "tags": [
+        "terminale",
+        "fiction",
+        "reality",
+        "media",
+        "mobile"
+      ],
+      "schoolLevel": "terminale",
+      "cefrLevel": "B1+",
+      "programAxis": "cycle_terminal_fiction_reality",
+      "sourceUrls": [
+        "https://eduscol.education.fr/document/24679/download"
+      ],
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "What is 'critical thinking'?",
+          "choices": [
+            "Analysing information before accepting it",
+            "Refusing to read any article",
+            "Believing every message immediately",
+            "Avoiding difficult questions"
+          ],
+          "correct": 0,
+          "explanation": "Critical thinking means questioning, comparing and evaluating information."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose the best sentence.",
+          "choices": [
+            "The article claims that the video is authentic.",
+            "The article claim that video authentic.",
+            "The article claiming authentic.",
+            "The article claims authentic is video."
+          ],
+          "correct": 0,
+          "explanation": "'Claims that...' is a useful reporting structure."
+        },
+        {
+          "type": "true_false",
+          "prompt": "A fictional story can still reveal something about real society.",
+          "answer": true,
+          "explanation": "Fiction can explore social issues through invented situations."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "What does 'fake news' mean?",
+          "choices": [
+            "False information presented as news",
+            "A news story from another country",
+            "An old article kept in an archive",
+            "A difficult article about politics"
+          ],
+          "correct": 0,
+          "explanation": "Fake news is misleading or false information."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Pick the best connector: The image looks real; ___, it may have been edited.",
+          "choices": [
+            "however",
+            "because",
+            "therefore",
+            "so"
+          ],
+          "correct": 0,
+          "explanation": "'However' introduces a warning or contrast."
+        },
+        {
+          "type": "true_false",
+          "prompt": "A documentary is always completely neutral and never uses a point of view.",
+          "answer": false,
+          "explanation": "Documentaries can use choices of framing, editing and narration."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "What is a 'source' in media literacy?",
+          "choices": [
+            "Where information comes from",
+            "The colour used in a headline",
+            "The number of words in an article",
+            "The device used to read news"
+          ],
+          "correct": 0,
+          "explanation": "Checking the source helps evaluate reliability."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose the reported speech sentence.",
+          "choices": [
+            "She said that the story was based on real events.",
+            "She said the story based on real events.",
+            "She said that the story was based in real events.",
+            "She told that the story was based on real events."
+          ],
+          "correct": 0,
+          "explanation": "Reported speech can use 'said that...' and the correct preposition is 'based on'."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "What does 'bias' mean?",
+          "choices": [
+            "A tendency to present things from one angle",
+            "A completely neutral point of view",
+            "A source checked by several experts",
+            "A fact that can be independently verified"
+          ],
+          "correct": 0,
+          "explanation": "Bias can influence how information is selected or presented."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Which question helps verify information?",
+          "choices": [
+            "Who created this and why?",
+            "Is it popular online?",
+            "Does it match my opinion?",
+            "Is the headline exciting?"
+          ],
+          "correct": 0,
+          "explanation": "Authorship and purpose are key verification questions."
+        }
+      ]
+    },
+    {
+      "slug": "terminale-identities-exchanges-mobile",
+      "title": "Identities and exchanges",
+      "description": "QCM about identity, mobility, intercultural exchanges and how contact with others shapes people and societies.",
+      "level": "B1+ - B2",
+      "tags": [
+        "terminale",
+        "identity",
+        "exchanges",
+        "mobility",
+        "culture",
+        "mobile"
+      ],
+      "schoolLevel": "terminale",
+      "cefrLevel": "B1+",
+      "programAxis": "cycle_terminal_identities_exchanges",
+      "sourceUrls": [
+        "https://eduscol.education.fr/document/24679/download"
+      ],
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "What does 'identity' refer to in a cultural context?",
+          "choices": [
+            "The way people define themselves and are seen by others",
+            "A single official document only",
+            "A fixed personality that never changes",
+            "A social media username only"
+          ],
+          "correct": 0,
+          "explanation": "Identity can include culture, language, family, place and personal experience."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose the best sentence.",
+          "choices": [
+            "Studying abroad can change how people see their own culture.",
+            "Studying abroad can changes people culture.",
+            "Studying abroad changing own culture.",
+            "Studying abroad changed can culture."
+          ],
+          "correct": 0,
+          "explanation": "Use 'can + base verb' and clear word order."
+        },
+        {
+          "type": "true_false",
+          "prompt": "Cultural exchanges can challenge stereotypes.",
+          "answer": true,
+          "explanation": "Meeting different people can question fixed or oversimplified ideas."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "What is 'intercultural communication'?",
+          "choices": [
+            "Communication between people from different cultural backgrounds",
+            "Communication with no cultural context",
+            "A translation app only",
+            "A conversation limited to one family"
+          ],
+          "correct": 0,
+          "explanation": "Intercultural communication happens across cultural backgrounds."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Pick the best connector: Meeting new people can be difficult; ___, it can also be enriching.",
+          "choices": [
+            "however",
+            "because",
+            "therefore",
+            "so"
+          ],
+          "correct": 0,
+          "explanation": "'However' introduces a contrast."
+        },
+        {
+          "type": "true_false",
+          "prompt": "Identity can be influenced by language, family, place and experiences.",
+          "answer": true,
+          "explanation": "Identity is shaped by several personal and social factors."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "What does 'mobility' mean in this context?",
+          "choices": [
+            "The movement of people for study, work or life",
+            "A fixed place with no movement",
+            "A phone connection only",
+            "A rule that prevents travel"
+          ],
+          "correct": 0,
+          "explanation": "Mobility can refer to people moving between places, countries or cultures."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose the sentence that correctly uses 'unlike'.",
+          "choices": [
+            "Unlike a tourist, an exchange student often lives with local people.",
+            "Unlike a tourist because local people.",
+            "An exchange student often unlike lives with local people.",
+            "A tourist unlike an exchange student because."
+          ],
+          "correct": 0,
+          "explanation": "'Unlike' introduces a comparison based on difference and is followed by a noun group."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "What does 'stereotype' mean?",
+          "choices": [
+            "An oversimplified idea about a group",
+            "A balanced description of one person",
+            "A detailed personal story",
+            "A cultural exchange programme"
+          ],
+          "correct": 0,
+          "explanation": "A stereotype reduces a group to a simple fixed idea."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Which sentence is the most nuanced?",
+          "choices": [
+            "Exchanges can create misunderstandings, but they can also build mutual understanding.",
+            "Exchanges always remove every cultural difference.",
+            "Misunderstandings make exchange impossible.",
+            "Identity never changes through contact with others."
+          ],
+          "correct": 0,
+          "explanation": "This answer balances possible difficulties and benefits."
+        }
+      ]
+    }
+  ]
+}

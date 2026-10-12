@@ -1,0 +1,1404 @@
+{
+  "version": 1,
+  "ownerEmail": "alexis@ledeunf.fr",
+  "source": "Programme d'anglais lycee general et technologique - classe de seconde",
+  "quizzes": [
+    {
+      "slug": "seconde-identity-first-impressions-mobile",
+      "title": "First impressions and identity",
+      "description": "Quick QCM about identity, profiles, first impressions and social situations.",
+      "level": "A2+ - B1",
+      "tags": [
+        "seconde",
+        "identity",
+        "first impressions",
+        "mobile"
+      ],
+      "schoolLevel": "seconde",
+      "cefrLevel": "A2+",
+      "programAxis": "seconde_axis_1",
+      "imagePrompt": "Friendly classroom scene with diverse teenagers introducing themselves, EasyPZ bright educational style.",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Which sentence is the best way to introduce yourself in a school exchange?",
+          "choices": [
+            "My name is Lucas and I like cinema.",
+            "I have 16 years and I like cinema.",
+            "I call Lucas and I like cinema.",
+            "Lucas is my name and cinema likes me."
+          ],
+          "correct": 0,
+          "explanation": "'My name is...' is natural, and the sentence has clear English word order.",
+          "mediaKey": "teachers/c2a32037-f986-4b84-a4f5-11f358673929/quiz-covers/seconde-identity-first-impressions-mobile.jpg"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "What does 'first impression' mean?",
+          "choices": [
+            "The first opinion you form about someone",
+            "A detailed biography of someone",
+            "A school exchange timetable",
+            "A list of personal hobbies"
+          ],
+          "correct": 0,
+          "explanation": "A first impression is the first idea or feeling you have about someone."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose the most polite question.",
+          "choices": [
+            "Could you tell me more about your hobbies?",
+            "What hobbies do you have?",
+            "Tell me your hobbies now.",
+            "You like what?"
+          ],
+          "correct": 0,
+          "explanation": "'Could you...' is polite and appropriate."
+        },
+        {
+          "type": "true_false",
+          "prompt": "In English, 'I am agree' is correct.",
+          "answer": false,
+          "explanation": "Say 'I agree', not 'I am agree'."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Which adjective describes someone who enjoys meeting new people?",
+          "choices": [
+            "outgoing",
+            "reserved",
+            "careful",
+            "serious"
+          ],
+          "correct": 0,
+          "explanation": "'Outgoing' means sociable."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Pick the correct sentence.",
+          "choices": [
+            "She seems confident.",
+            "She seems confidently.",
+            "She seem confident.",
+            "She is seems confident."
+          ],
+          "correct": 0,
+          "explanation": "After 'seem', use an adjective: 'confident'."
+        },
+        {
+          "type": "true_false",
+          "prompt": "A profile picture can influence how people perceive you online.",
+          "answer": true,
+          "explanation": "Online identity is often shaped by images, words and context."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Which phrase is useful to compare two people?",
+          "choices": [
+            "whereas",
+            "before",
+            "during",
+            "since"
+          ],
+          "correct": 0,
+          "explanation": "'Whereas' introduces a contrast between two people or ideas."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "What is a stereotype?",
+          "choices": [
+            "An oversimplified idea about a group",
+            "A detailed biography of one person",
+            "A balanced description based on evidence",
+            "A personal preference about an activity"
+          ],
+          "correct": 0,
+          "explanation": "A stereotype reduces a person or group to a simple fixed idea."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose the best response: 'Nice to meet you.'",
+          "choices": [
+            "Nice to meet you too.",
+            "I am fine, thanks.",
+            "See you tomorrow.",
+            "You're welcome."
+          ],
+          "correct": 0,
+          "explanation": "This is the natural polite response."
+        }
+      ],
+      "coverImage": {
+        "mediaKey": "teachers/c2a32037-f986-4b84-a4f5-11f358673929/quiz-covers/seconde-identity-first-impressions-mobile.jpg",
+        "title": "Classroom students png sticker illustration",
+        "creator": "Unknown",
+        "license": "cc0",
+        "licenseVersion": "1.0",
+        "source": "rawpixel",
+        "sourceUrl": "https://www.rawpixel.com/image/7549098/png-sticker-vintage",
+        "openverseId": "560813f0-5142-4e65-b6fd-d52009aec432",
+        "openverseUrl": "https://openverse.org/image/560813f0-5142-4e65-b6fd-d52009aec432"
+      }
+    },
+    {
+      "slug": "seconde-generations-family-life-mobile",
+      "title": "Generations and family life",
+      "description": "QCM about family relationships, generations and everyday life.",
+      "level": "A2+ - B1",
+      "tags": [
+        "seconde",
+        "generations",
+        "family",
+        "mobile"
+      ],
+      "schoolLevel": "seconde",
+      "cefrLevel": "A2+",
+      "programAxis": "seconde_axis_2",
+      "imagePrompt": "Warm family living room scene with teenagers and grandparents discussing, EasyPZ bright educational style.",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "What is a 'generation gap'?",
+          "choices": [
+            "Differences between age groups",
+            "A family celebration",
+            "A school holiday",
+            "A group project between classmates"
+          ],
+          "correct": 0,
+          "explanation": "A generation gap refers to differences between younger and older people.",
+          "mediaKey": "teachers/c2a32037-f986-4b84-a4f5-11f358673929/quiz-covers/seconde-generations-family-life-mobile.jpg"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose the correct sentence.",
+          "choices": [
+            "My parents let me go out on Saturdays.",
+            "My parents let me to go out.",
+            "My parents lets me go out.",
+            "My parents let I go out."
+          ],
+          "correct": 0,
+          "explanation": "Use 'let + object + base verb'."
+        },
+        {
+          "type": "true_false",
+          "prompt": "The word 'siblings' means brothers and sisters.",
+          "answer": true,
+          "explanation": "'Siblings' includes brothers and sisters."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Which word means 'supportive' in a family context?",
+          "choices": [
+            "helpful and encouraging",
+            "strict and demanding",
+            "distant and quiet",
+            "independent and busy"
+          ],
+          "correct": 0,
+          "explanation": "A supportive person helps and encourages others."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Pick the modal verb used to give advice: Teenagers ___ respect family rules.",
+          "choices": [
+            "should",
+            "must",
+            "can",
+            "will"
+          ],
+          "correct": 0,
+          "explanation": "'Should' is used for advice or expectation."
+        },
+        {
+          "type": "true_false",
+          "prompt": "In English, 'I have 16 years old' is correct.",
+          "answer": false,
+          "explanation": "Say 'I am 16 years old'."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "What does 'household chores' mean?",
+          "choices": [
+            "Tasks done at home",
+            "Sports competitions",
+            "School holidays",
+            "Online messages"
+          ],
+          "correct": 0,
+          "explanation": "Chores are regular tasks such as cleaning or washing dishes."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose the sentence showing contrast.",
+          "choices": [
+            "My grandmother prefers letters, whereas I use messages.",
+            "My grandmother prefers letters because I use messages.",
+            "My grandmother prefers letters when I use messages.",
+            "My grandmother and I both use messages."
+          ],
+          "correct": 0,
+          "explanation": "'Whereas' is used to contrast two ideas."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Which phrase is used to express opinion?",
+          "choices": [
+            "In my opinion",
+            "For example",
+            "Last weekend",
+            "At the bus stop"
+          ],
+          "correct": 0,
+          "explanation": "Use 'In my opinion' to introduce a personal view."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Which word is closest to 'argument' in a family conflict?",
+          "choices": [
+            "disagreement",
+            "agreement",
+            "solution",
+            "support"
+          ],
+          "correct": 0,
+          "explanation": "An argument is a disagreement."
+        }
+      ],
+      "coverImage": {
+        "mediaKey": "teachers/c2a32037-f986-4b84-a4f5-11f358673929/quiz-covers/seconde-generations-family-life-mobile.jpg",
+        "title": "Multi-generational family in Ugand",
+        "creator": "Oliversamson1",
+        "license": "cc0",
+        "licenseVersion": "1.0",
+        "source": "wikimedia",
+        "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=183399793",
+        "openverseId": "e74faac2-cfc2-41ea-8873-81cde36a6fac",
+        "openverseUrl": "https://openverse.org/image/e74faac2-cfc2-41ea-8873-81cde36a6fac"
+      }
+    },
+    {
+      "slug": "seconde-past-in-present-heritage-mobile",
+      "title": "The past in the present",
+      "description": "QCM about heritage, memory, monuments and history in today's world.",
+      "level": "A2+ - B1",
+      "tags": [
+        "seconde",
+        "heritage",
+        "history",
+        "mobile"
+      ],
+      "schoolLevel": "seconde",
+      "cefrLevel": "A2+",
+      "programAxis": "seconde_axis_3",
+      "imagePrompt": "Museum and city monument scene showing past and present together, EasyPZ bright educational style.",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "What is 'heritage'?",
+          "choices": [
+            "Things from the past that are valued today",
+            "A temporary trend that disappears quickly",
+            "A new invention with no link to the past",
+            "A daily routine at school"
+          ],
+          "correct": 0,
+          "explanation": "Heritage includes buildings, traditions, stories and objects from the past.",
+          "mediaKey": "teachers/c2a32037-f986-4b84-a4f5-11f358673929/quiz-covers/seconde-past-in-present-heritage-mobile.jpg"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose the correct past form: People ___ this monument in 1890.",
+          "choices": [
+            "built",
+            "build",
+            "are building",
+            "have built"
+          ],
+          "correct": 0,
+          "explanation": "'Build' is irregular: build, built, built."
+        },
+        {
+          "type": "true_false",
+          "prompt": "A museum can help people understand the past.",
+          "answer": true,
+          "explanation": "Museums preserve and explain objects, stories and memories."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Which word means 'to protect something from damage or loss'?",
+          "choices": [
+            "preserve",
+            "delete",
+            "forget",
+            "hide"
+          ],
+          "correct": 0,
+          "explanation": "To preserve is to protect and keep something."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Pick the correct phrase.",
+          "choices": [
+            "a historical building",
+            "a building historical",
+            "a history building",
+            "a historically building"
+          ],
+          "correct": 0,
+          "explanation": "'A historical building' is a correct noun phrase."
+        },
+        {
+          "type": "true_false",
+          "prompt": "The past simple is often used with dates.",
+          "answer": true,
+          "explanation": "Dates such as 'in 1969' often go with the past simple."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "What does 'commemorate' mean?",
+          "choices": [
+            "remember publicly",
+            "buy cheaply",
+            "travel quickly",
+            "speak quietly"
+          ],
+          "correct": 0,
+          "explanation": "To commemorate is to remember an event or person officially."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose the best connector: The building is old, ___ it is still useful.",
+          "choices": [
+            "but",
+            "because",
+            "when",
+            "so that"
+          ],
+          "correct": 0,
+          "explanation": "'But' introduces contrast."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Which item is usually part of cultural heritage?",
+          "choices": [
+            "a traditional song",
+            "a recent advertisement",
+            "a new smartphone app",
+            "a school timetable"
+          ],
+          "correct": 0,
+          "explanation": "Songs, stories, monuments and traditions can be heritage."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Which question asks about the past?",
+          "choices": [
+            "When was it built?",
+            "Where is the cafe?",
+            "How much is it?",
+            "Who is online?"
+          ],
+          "correct": 0,
+          "explanation": "'Was built' asks about a past event."
+        }
+      ],
+      "coverImage": {
+        "mediaKey": "teachers/c2a32037-f986-4b84-a4f5-11f358673929/quiz-covers/seconde-past-in-present-heritage-mobile.jpg",
+        "title": "The Cloisters Jerónimos Monastery BELEM LISBON",
+        "creator": "Terry Kearney",
+        "license": "cc0",
+        "licenseVersion": "1.0",
+        "source": "flickr",
+        "sourceUrl": "https://www.flickr.com/photos/24490288@N04/10973473953",
+        "openverseId": "8b0e6b8a-8218-4b0c-8b47-59ccc196c7c6",
+        "openverseUrl": "https://openverse.org/image/8b0e6b8a-8218-4b0c-8b47-59ccc196c7c6"
+      }
+    },
+    {
+      "slug": "seconde-challenges-transitions-climate-mobile",
+      "title": "Challenges and transitions",
+      "description": "QCM about climate, technology, change and responsibility.",
+      "level": "A2+ - B1",
+      "tags": [
+        "seconde",
+        "climate",
+        "technology",
+        "mobile"
+      ],
+      "schoolLevel": "seconde",
+      "cefrLevel": "A2+",
+      "programAxis": "seconde_axis_4",
+      "imagePrompt": "Teenagers discussing climate action and technology in a classroom, EasyPZ bright educational style.",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "What does 'sustainable' mean?",
+          "choices": [
+            "able to continue without harming the future",
+            "useful only for a very short time",
+            "based on wasting resources",
+            "impossible to maintain"
+          ],
+          "correct": 0,
+          "explanation": "Sustainable actions protect resources and the future.",
+          "mediaKey": "teachers/c2a32037-f986-4b84-a4f5-11f358673929/quiz-covers/seconde-challenges-transitions-climate-mobile.jpg"
+        },
+        {
+          "type": "true_false",
+          "prompt": "Recycling can be part of an environmental transition.",
+          "answer": true,
+          "explanation": "Recycling is one action among many to reduce waste."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose the best sentence.",
+          "choices": [
+            "We should reduce waste.",
+            "We should to reduce waste.",
+            "We should reducing waste.",
+            "We should reduced waste."
+          ],
+          "correct": 0,
+          "explanation": "Use 'should + base verb'."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Which word is closest to 'challenge'?",
+          "choices": [
+            "difficulty",
+            "solution",
+            "habit",
+            "advantage"
+          ],
+          "correct": 0,
+          "explanation": "A challenge is a difficult task or situation."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "What is renewable energy?",
+          "choices": [
+            "Energy from sources that naturally replace themselves",
+            "Energy from coal, oil or gas only",
+            "Energy that can be used only once",
+            "Energy that always increases pollution"
+          ],
+          "correct": 0,
+          "explanation": "Solar, wind and hydro energy are common examples."
+        },
+        {
+          "type": "true_false",
+          "prompt": "The phrase 'climate change' refers only to the weather tomorrow.",
+          "answer": false,
+          "explanation": "Climate change refers to long-term changes in climate."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Pick the best connector: People use bikes ___ they want to reduce pollution.",
+          "choices": [
+            "because",
+            "although",
+            "whereas",
+            "unless"
+          ],
+          "correct": 0,
+          "explanation": "'Because' gives a reason."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Which action is eco-friendly?",
+          "choices": [
+            "using a reusable bottle",
+            "throwing plastic in a river",
+            "wasting water",
+            "leaving lights on all night"
+          ],
+          "correct": 0,
+          "explanation": "Reusable objects reduce waste."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "What does 'take action' mean?",
+          "choices": [
+            "do something to help or change a situation",
+            "wait for someone else to react",
+            "talk about a problem without acting",
+            "ignore a problem completely"
+          ],
+          "correct": 0,
+          "explanation": "To take action is to act."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Which phrase expresses a future prediction?",
+          "choices": [
+            "Cities will change.",
+            "Cities changed yesterday.",
+            "Cities are changing now.",
+            "Cities change every day."
+          ],
+          "correct": 0,
+          "explanation": "'Will' can express a prediction."
+        }
+      ],
+      "coverImage": {
+        "mediaKey": "teachers/c2a32037-f986-4b84-a4f5-11f358673929/quiz-covers/seconde-challenges-transitions-climate-mobile.jpg",
+        "title": "Plant-for-the-Planet students brief CM Sawant's Committee re: Climate Action",
+        "creator": "Seattle City Council",
+        "license": "cc0",
+        "licenseVersion": "1.0",
+        "source": "flickr",
+        "sourceUrl": "https://www.flickr.com/photos/47354378@N05/18682874893",
+        "openverseId": "cc22ebe7-e3ae-4655-953e-424a7041db3d",
+        "openverseUrl": "https://openverse.org/image/cc22ebe7-e3ae-4655-953e-424a7041db3d"
+      }
+    },
+    {
+      "slug": "seconde-create-recreate-arts-mobile",
+      "title": "Create and recreate",
+      "description": "QCM about creativity, adaptations, art and storytelling.",
+      "level": "A2+ - B1",
+      "tags": [
+        "seconde",
+        "arts",
+        "creativity",
+        "mobile"
+      ],
+      "schoolLevel": "seconde",
+      "cefrLevel": "A2+",
+      "programAxis": "seconde_axis_5",
+      "imagePrompt": "Students creating posters, music and digital art in a creative classroom, EasyPZ bright educational style.",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "What is an adaptation?",
+          "choices": [
+            "A new version of a story or artwork",
+            "A review that gives an opinion",
+            "The original work with no changes",
+            "A list of characters in a story"
+          ],
+          "correct": 0,
+          "explanation": "Films can be adaptations of novels, for example.",
+          "mediaKey": "teachers/c2a32037-f986-4b84-a4f5-11f358673929/quiz-covers/seconde-create-recreate-arts-mobile.webp"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose the correct sentence.",
+          "choices": [
+            "The artist was inspired by nature.",
+            "The artist inspired by nature was.",
+            "The artist did inspired nature.",
+            "The artist was inspire by nature."
+          ],
+          "correct": 0,
+          "explanation": "'Was inspired by' is the correct passive form."
+        },
+        {
+          "type": "true_false",
+          "prompt": "A remix can transform an existing song.",
+          "answer": true,
+          "explanation": "A remix recreates or changes an existing musical work."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Which word is linked to visual art?",
+          "choices": [
+            "portrait",
+            "dialogue",
+            "soundtrack",
+            "chapter"
+          ],
+          "correct": 0,
+          "explanation": "A portrait is an image of a person."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "What does 'plot' mean in a story?",
+          "choices": [
+            "the sequence of events",
+            "the main character's clothes",
+            "the place where a book is sold",
+            "the opinion of a reader"
+          ],
+          "correct": 0,
+          "explanation": "The plot is what happens in the story."
+        },
+        {
+          "type": "true_false",
+          "prompt": "The phrase 'based on' can introduce the original work behind an adaptation.",
+          "answer": true,
+          "explanation": "Example: 'The film is based on a novel.'"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose the best word: The director ___ the ending.",
+          "choices": [
+            "changed",
+            "change",
+            "has changed in 2010",
+            "was change"
+          ],
+          "correct": 0,
+          "explanation": "Past simple: 'changed'."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Which expression gives an opinion about art?",
+          "choices": [
+            "I find it moving.",
+            "It was painted in 1920.",
+            "It is displayed in a museum.",
+            "It uses bright colours."
+          ],
+          "correct": 0,
+          "explanation": "'I find it moving' expresses a personal reaction."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "What is a 'character' in fiction?",
+          "choices": [
+            "a person or figure in a story",
+            "the place where the story happens",
+            "the sequence of events",
+            "the main message of a story"
+          ],
+          "correct": 0,
+          "explanation": "Characters are the people or figures in stories."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Which phrase compares two versions?",
+          "choices": [
+            "unlike the original",
+            "in the first scene",
+            "with a new actor",
+            "at the end of the story"
+          ],
+          "correct": 0,
+          "explanation": "'Unlike' introduces a difference."
+        }
+      ],
+      "coverImage": {
+        "mediaKey": "teachers/c2a32037-f986-4b84-a4f5-11f358673929/quiz-covers/seconde-create-recreate-arts-mobile.webp",
+        "title": "Sculpture class of the Finnish Art Society's Drawing School",
+        "creator": "Finnish National Gallery",
+        "license": "cc0",
+        "licenseVersion": "1.0",
+        "source": "flickr",
+        "sourceUrl": "https://www.flickr.com/photos/127104863@N05/24693207742",
+        "openverseId": "9f336402-487f-4890-a4d9-55d4d7842e02",
+        "openverseUrl": "https://openverse.org/image/9f336402-487f-4890-a4d9-55d4d7842e02"
+      }
+    },
+    {
+      "slug": "seconde-commonwealth-mobile",
+      "title": "Commonwealth basics",
+      "description": "QCM about the Commonwealth, diversity and English-speaking countries.",
+      "level": "A2+ - B1",
+      "tags": [
+        "seconde",
+        "commonwealth",
+        "culture",
+        "mobile"
+      ],
+      "schoolLevel": "seconde",
+      "cefrLevel": "A2+",
+      "programAxis": "seconde_axis_6",
+      "imagePrompt": "Map-inspired educational illustration showing Commonwealth countries and flags, EasyPZ bright educational style.",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Which country is part of the Commonwealth?",
+          "choices": [
+            "Canada",
+            "Japan",
+            "Brazil",
+            "Norway"
+          ],
+          "correct": 0,
+          "explanation": "Canada is a member of the Commonwealth.",
+          "mediaKey": "teachers/c2a32037-f986-4b84-a4f5-11f358673929/quiz-covers/seconde-commonwealth-mobile.png"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "The Commonwealth is mainly linked by a shared history with...",
+          "choices": [
+            "the British Empire",
+            "Ancient Rome",
+            "the Vikings",
+            "the Moon landing"
+          ],
+          "correct": 0,
+          "explanation": "Many members have historical links with the British Empire."
+        },
+        {
+          "type": "true_false",
+          "prompt": "All Commonwealth countries are exactly the same culturally.",
+          "answer": false,
+          "explanation": "The Commonwealth is diverse, with many cultures and histories."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Which word best matches 'diversity'?",
+          "choices": [
+            "variety",
+            "uniformity",
+            "similarity",
+            "isolation"
+          ],
+          "correct": 0,
+          "explanation": "Diversity means variety and difference."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Which sentence is correct?",
+          "choices": [
+            "English is spoken in many Commonwealth countries.",
+            "English speak in many Commonwealth countries.",
+            "English spoken many countries is.",
+            "English speaking by countries."
+          ],
+          "correct": 0,
+          "explanation": "Passive voice: 'English is spoken...'."
+        },
+        {
+          "type": "true_false",
+          "prompt": "Australia and New Zealand are English-speaking countries.",
+          "answer": true,
+          "explanation": "English is widely used in both countries."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "What does 'member state' mean?",
+          "choices": [
+            "a country that belongs to an organization",
+            "the capital city of a country",
+            "a region with no political status",
+            "a country that cannot cooperate with others"
+          ],
+          "correct": 0,
+          "explanation": "A member state belongs to an international group."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose the best question for culture.",
+          "choices": [
+            "What traditions are important there?",
+            "How many people live there?",
+            "Where is it on the map?",
+            "What currency is used there?"
+          ],
+          "correct": 0,
+          "explanation": "Traditions are part of culture."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Which phrase expresses contrast?",
+          "choices": [
+            "Although they share English, they have different cultures.",
+            "They share English because their cultures are identical.",
+            "They share English, so their cultures are the same.",
+            "They have different cultures and share English."
+          ],
+          "correct": 0,
+          "explanation": "'Although' introduces contrast."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Which place is in the Caribbean and part of the Commonwealth?",
+          "choices": [
+            "Jamaica",
+            "Iceland",
+            "Thailand",
+            "Portugal"
+          ],
+          "correct": 0,
+          "explanation": "Jamaica is a Commonwealth country in the Caribbean."
+        }
+      ],
+      "coverImage": {
+        "mediaKey": "teachers/c2a32037-f986-4b84-a4f5-11f358673929/quiz-covers/seconde-commonwealth-mobile.png",
+        "title": "Flag Map of The World (2026)",
+        "creator": "GibleGamingYT",
+        "license": "cc0",
+        "licenseVersion": "1.0",
+        "source": "wikimedia",
+        "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=181300053",
+        "openverseId": "50f49a33-3b3a-4250-9f27-cf1582b5f356",
+        "openverseUrl": "https://openverse.org/image/50f49a33-3b3a-4250-9f27-cf1582b5f356"
+      }
+    },
+    {
+      "slug": "seconde-work-future-careers-mobile",
+      "title": "Work and future careers",
+      "description": "Mobile-first QCM about jobs, career choices, skills and the changing world of work.",
+      "level": "A2+ - B1",
+      "tags": [
+        "seconde",
+        "work",
+        "careers",
+        "skills",
+        "mobile"
+      ],
+      "schoolLevel": "seconde",
+      "cefrLevel": "A2+",
+      "programAxis": "seconde_axis_2",
+      "imagePrompt": "Bright classroom career fair with teenagers discovering different jobs, EasyPZ educational style.",
+      "sourceUrls": [
+        "https://eduscol.education.fr/document/24676/download"
+      ],
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "What is a 'career choice'?",
+          "choices": [
+            "A decision about your future job path",
+            "A temporary activity after one lesson",
+            "A hobby with no link to work",
+            "A school timetable for one day"
+          ],
+          "correct": 0,
+          "explanation": "A career choice is linked to the job or professional path you may follow.",
+          "mediaKey": "teachers/c2a32037-f986-4b84-a4f5-11f358673929/quiz-covers/seconde-work-future-careers-mobile.jpg"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose the best sentence.",
+          "choices": [
+            "I would like to become a designer.",
+            "I would like becoming designer.",
+            "I like become a designer.",
+            "I am would designer."
+          ],
+          "correct": 0,
+          "explanation": "Use 'would like to + base verb'."
+        },
+        {
+          "type": "true_false",
+          "prompt": "A job interview is a meeting where an employer asks questions to a candidate.",
+          "answer": true,
+          "explanation": "An interview helps the employer learn about the candidate."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Which word means the abilities you can use in work or study?",
+          "choices": [
+            "skills",
+            "stairs",
+            "sales",
+            "screens"
+          ],
+          "correct": 0,
+          "explanation": "Skills are abilities, such as communication, teamwork or coding."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Pick the modal verb used to give advice: In an interview, you ___ be polite.",
+          "choices": [
+            "should",
+            "must",
+            "can",
+            "will"
+          ],
+          "correct": 0,
+          "explanation": "'Should' is used to give advice."
+        },
+        {
+          "type": "true_false",
+          "prompt": "Remote work means working from a place that is not necessarily the office.",
+          "answer": true,
+          "explanation": "Remote work can happen at home or from another location."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "What does 'teamwork' mean?",
+          "choices": [
+            "Working with others to reach a goal",
+            "Working alone without sharing ideas",
+            "Competing against your own team",
+            "Following no common objective"
+          ],
+          "correct": 0,
+          "explanation": "Teamwork is cooperation inside a group."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose the phrase that expresses a future plan.",
+          "choices": [
+            "I am going to apply for an internship.",
+            "I applied for an internship yesterday.",
+            "I apply for internships every year.",
+            "I would apply if I had time."
+          ],
+          "correct": 0,
+          "explanation": "'Be going to' is useful for plans."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Which quality means people can trust you to do what you promised?",
+          "choices": [
+            "reliability",
+            "creativity",
+            "curiosity",
+            "ambition"
+          ],
+          "correct": 0,
+          "explanation": "Reliability means people can trust you to be serious and keep your promises."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "What is an 'internship'?",
+          "choices": [
+            "A short work experience placement",
+            "A permanent full-time job",
+            "A university degree",
+            "A job interview question"
+          ],
+          "correct": 0,
+          "explanation": "An internship gives experience in a workplace."
+        }
+      ],
+      "coverImage": {
+        "mediaKey": "teachers/c2a32037-f986-4b84-a4f5-11f358673929/quiz-covers/seconde-work-future-careers-mobile.jpg",
+        "title": "SGRC Job Fair Putting their",
+        "creator": "Unknown",
+        "license": "cc0",
+        "licenseVersion": "1.0",
+        "source": "rawpixel",
+        "sourceUrl": "https://www.rawpixel.com/image/9676990/image-face-person-woman",
+        "openverseId": "2b9f2d04-7ec2-4c9a-9dfe-609aa0b40e8c",
+        "openverseUrl": "https://openverse.org/image/2b9f2d04-7ec2-4c9a-9dfe-609aa0b40e8c"
+      }
+    },
+    {
+      "slug": "seconde-city-neighbourhood-community-mobile",
+      "title": "Cities and communities",
+      "description": "Mobile-first QCM about neighbourhoods, urban life, belonging and city changes.",
+      "level": "A2+ - B1",
+      "tags": [
+        "seconde",
+        "city",
+        "neighbourhood",
+        "community",
+        "mobile"
+      ],
+      "schoolLevel": "seconde",
+      "cefrLevel": "A2+",
+      "programAxis": "seconde_axis_3",
+      "imagePrompt": "Friendly city neighbourhood with students, public transport and street art, EasyPZ educational style.",
+      "sourceUrls": [
+        "https://eduscol.education.fr/document/24676/download"
+      ],
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "What is a 'neighbourhood'?",
+          "choices": [
+            "A local area where people live",
+            "The whole country",
+            "A single private house only",
+            "A national government building"
+          ],
+          "correct": 0,
+          "explanation": "A neighbourhood is a part of a town or city.",
+          "mediaKey": "teachers/c2a32037-f986-4b84-a4f5-11f358673929/quiz-covers/seconde-city-neighbourhood-community-mobile.jpg"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose the correct sentence.",
+          "choices": [
+            "There are many parks in my city.",
+            "There is many parks in my city.",
+            "There are much parks.",
+            "There is parks many."
+          ],
+          "correct": 0,
+          "explanation": "Use 'there are' with plural nouns."
+        },
+        {
+          "type": "true_false",
+          "prompt": "A city can reflect the history and culture of a country.",
+          "answer": true,
+          "explanation": "Architecture, monuments, names and public spaces can show culture and history."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Which word means people living in the same area or sharing something?",
+          "choices": [
+            "community",
+            "crowd",
+            "competition",
+            "commuter"
+          ],
+          "correct": 0,
+          "explanation": "A community is a group of people connected by place or interests."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Pick the best comparison: London is ___ than my town.",
+          "choices": [
+            "larger",
+            "large",
+            "more large",
+            "largest than"
+          ],
+          "correct": 0,
+          "explanation": "Use the comparative form 'larger'."
+        },
+        {
+          "type": "true_false",
+          "prompt": "Public transport includes buses, trains and underground lines.",
+          "answer": true,
+          "explanation": "These services help people move around a city."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "What does 'crowded' mean?",
+          "choices": [
+            "full of people",
+            "well organized",
+            "far away",
+            "very expensive"
+          ],
+          "correct": 0,
+          "explanation": "A crowded place has many people in it."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose the phrase that expresses contrast.",
+          "choices": [
+            "Although the city is busy, it feels welcoming.",
+            "The city is busy and full of people.",
+            "The city feels welcoming to many visitors.",
+            "The city has busy streets and parks."
+          ],
+          "correct": 0,
+          "explanation": "'Although' introduces a contrast."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Which place is linked to local government?",
+          "choices": [
+            "a town hall",
+            "a shopping mall",
+            "a stadium",
+            "a train station"
+          ],
+          "correct": 0,
+          "explanation": "A town hall is linked to local government and public services."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "What is 'street art'?",
+          "choices": [
+            "Art created in public urban spaces",
+            "A private diary entry",
+            "A museum ticket",
+            "A sports trophy"
+          ],
+          "correct": 0,
+          "explanation": "Street art is often visible on walls or public surfaces."
+        }
+      ],
+      "coverImage": {
+        "mediaKey": "teachers/c2a32037-f986-4b84-a4f5-11f358673929/quiz-covers/seconde-city-neighbourhood-community-mobile.jpg",
+        "title": "Urban street-graffiti and wall-art; throw-ups & two sweeping figures in the Willemstraat, Jordaan-district in Amsterdam, near the corner with Brouwersgracht in Amsterdam city, November 2013; photo Amsterdam city; urban photographer Fons Heijnsbroek, 2013",
+        "creator": "Amsterdam free photos & pictures of the Dutch city",
+        "license": "cc0",
+        "licenseVersion": "1.0",
+        "source": "flickr",
+        "sourceUrl": "https://www.flickr.com/photos/104736837@N03/10891211326",
+        "openverseId": "c63b2d13-d27a-46e6-a138-15fd69a30bdd",
+        "openverseUrl": "https://openverse.org/image/c63b2d13-d27a-46e6-a138-15fd69a30bdd"
+      }
+    },
+    {
+      "slug": "seconde-sports-society-mobile",
+      "title": "Sports and society",
+      "description": "Mobile-first QCM about sport, rules, inclusion, identity and collective emotions.",
+      "level": "A2+ - B1",
+      "tags": [
+        "seconde",
+        "sport",
+        "society",
+        "inclusion",
+        "mobile"
+      ],
+      "schoolLevel": "seconde",
+      "cefrLevel": "A2+",
+      "programAxis": "seconde_axis_5",
+      "imagePrompt": "Inclusive school sports day with mixed teams and cheering students, EasyPZ educational style.",
+      "sourceUrls": [
+        "https://eduscol.education.fr/document/24676/download"
+      ],
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "What does sport often teach?",
+          "choices": [
+            "rules, effort and teamwork",
+            "only individual success",
+            "consumer habits",
+            "screen time"
+          ],
+          "correct": 0,
+          "explanation": "Sport can teach cooperation, effort and respect for rules.",
+          "mediaKey": "teachers/c2a32037-f986-4b84-a4f5-11f358673929/quiz-covers/seconde-sports-society-mobile.jpg"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose the best sentence.",
+          "choices": [
+            "Players must respect the rules.",
+            "Players must to respect the rules.",
+            "Players must respecting rules.",
+            "Players must respected rules."
+          ],
+          "correct": 0,
+          "explanation": "Use 'must + base verb'."
+        },
+        {
+          "type": "true_false",
+          "prompt": "A supporter is someone who follows and encourages a team.",
+          "answer": true,
+          "explanation": "Supporters encourage teams or athletes."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Which word is closest to 'fair play'?",
+          "choices": [
+            "respectful behaviour",
+            "cheating",
+            "private training",
+            "ticket price"
+          ],
+          "correct": 0,
+          "explanation": "Fair play means respecting rules and people."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Pick the correct comparative.",
+          "choices": [
+            "This match is more exciting than the last one.",
+            "This match is excitinger than last.",
+            "This match more exciting that.",
+            "This match is most exciting than."
+          ],
+          "correct": 0,
+          "explanation": "For long adjectives, use 'more ... than'."
+        },
+        {
+          "type": "true_false",
+          "prompt": "Sport can create a feeling of belonging.",
+          "answer": true,
+          "explanation": "Teams, clubs and supporters can create collective identity."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "What does 'inclusive' mean in sport?",
+          "choices": [
+            "open to different people",
+            "only for champions",
+            "without rules",
+            "very expensive"
+          ],
+          "correct": 0,
+          "explanation": "Inclusive activities welcome different profiles and abilities."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose the phrase that gives a reason.",
+          "choices": [
+            "because it builds confidence",
+            "although it builds confidence",
+            "while it builds confidence",
+            "despite building confidence"
+          ],
+          "correct": 0,
+          "explanation": "'Because' introduces a reason."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "What is a 'record' in sport?",
+          "choices": [
+            "the best performance officially noted",
+            "a written match report",
+            "a training plan for a team",
+            "a ticket for a match"
+          ],
+          "correct": 0,
+          "explanation": "A record is an officially recognized best performance."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Which sentence expresses opinion?",
+          "choices": [
+            "I think sport can bring people together.",
+            "The match starts at five o'clock.",
+            "The players are on the field.",
+            "The team won the final last year."
+          ],
+          "correct": 0,
+          "explanation": "'I think...' introduces an opinion."
+        }
+      ],
+      "coverImage": {
+        "mediaKey": "teachers/c2a32037-f986-4b84-a4f5-11f358673929/quiz-covers/seconde-sports-society-mobile.jpg",
+        "title": "Rugby Session of Growth Sports Academy Rugby Teams by Aadil Manzoor",
+        "creator": "Uchooseme",
+        "license": "cc0",
+        "licenseVersion": "1.0",
+        "source": "wikimedia",
+        "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=146829102",
+        "openverseId": "9d286d31-6ae2-4211-85ba-fdbc2d5215e4",
+        "openverseUrl": "https://openverse.org/image/9d286d31-6ae2-4211-85ba-fdbc2d5215e4"
+      }
+    },
+    {
+      "slug": "seconde-digital-citizenship-mobile",
+      "title": "Digital life and citizenship",
+      "description": "Mobile-first QCM about social networks, online identity, media habits and safe digital behaviour.",
+      "level": "A2+ - B1",
+      "tags": [
+        "seconde",
+        "digital",
+        "media",
+        "online identity",
+        "mobile"
+      ],
+      "schoolLevel": "seconde",
+      "cefrLevel": "A2+",
+      "programAxis": "seconde_cross_digital",
+      "imagePrompt": "Teenagers using smartphones responsibly with privacy icons and social media symbols, EasyPZ educational style.",
+      "sourceUrls": [
+        "https://eduscol.education.fr/document/24676/download",
+        "https://learnenglishteens.britishcouncil.org/topics/school/term"
+      ],
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "What is 'online identity'?",
+          "choices": [
+            "The image of yourself you create on the internet",
+            "An official paper document only",
+            "A school account password",
+            "A browser history list"
+          ],
+          "correct": 0,
+          "explanation": "Online identity is shaped by profiles, posts, pictures and interactions.",
+          "mediaKey": "teachers/c2a32037-f986-4b84-a4f5-11f358673929/quiz-covers/seconde-digital-citizenship-mobile.jpg"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose the safest action.",
+          "choices": [
+            "Use a strong password and keep it private.",
+            "Share your password with everyone.",
+            "Post your address publicly.",
+            "Click every unknown link."
+          ],
+          "correct": 0,
+          "explanation": "A strong private password helps protect your account."
+        },
+        {
+          "type": "true_false",
+          "prompt": "A selfie can influence how other people see you online.",
+          "answer": true,
+          "explanation": "Pictures are part of online self-image."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "What does 'privacy' mean?",
+          "choices": [
+            "Control over personal information",
+            "Being visible to everyone online",
+            "Posting every detail publicly",
+            "Accepting every website request"
+          ],
+          "correct": 0,
+          "explanation": "Privacy is about protecting personal information."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Pick the correct sentence.",
+          "choices": [
+            "You should check the source before sharing news.",
+            "You should checking source.",
+            "You should checked source.",
+            "You should source before sharing news."
+          ],
+          "correct": 0,
+          "explanation": "Use 'should + base verb'."
+        },
+        {
+          "type": "true_false",
+          "prompt": "Everything online is automatically true.",
+          "answer": false,
+          "explanation": "Online information needs to be checked and compared with reliable sources."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "What is 'cyberbullying'?",
+          "choices": [
+            "Bullying that happens online",
+            "A respectful online debate",
+            "A technical problem on a website",
+            "A safe message from a teacher"
+          ],
+          "correct": 0,
+          "explanation": "Cyberbullying uses digital tools to hurt or harass someone."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Which phrase expresses advice?",
+          "choices": [
+            "You should report harmful messages.",
+            "You reported harmful messages yesterday.",
+            "You can see harmful messages online.",
+            "You are reading harmful messages now."
+          ],
+          "correct": 0,
+          "explanation": "'You should...' is used to give advice."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "What does 'screen time' mean?",
+          "choices": [
+            "Time spent using devices with screens",
+            "A cinema ticket only",
+            "A classroom clock",
+            "A printed page"
+          ],
+          "correct": 0,
+          "explanation": "Screen time includes phones, computers, tablets and TV."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Which habit helps digital well-being?",
+          "choices": [
+            "Taking breaks from screens",
+            "Checking notifications all night",
+            "Sharing private photos publicly",
+            "Skipping every offline activity"
+          ],
+          "correct": 0,
+          "explanation": "Breaks can help balance digital life and health."
+        }
+      ],
+      "coverImage": {
+        "mediaKey": "teachers/c2a32037-f986-4b84-a4f5-11f358673929/quiz-covers/seconde-digital-citizenship-mobile.jpg",
+        "title": "Alumni TIES Ukraine, Kyiv, Ukraine Alumni TIES Ukraine, Kyiv, Ukraine digital-citizenship-education-panel-discussion 44960270694 o (53874098396)",
+        "creator": "Exchanges Photos",
+        "license": "cc0",
+        "licenseVersion": "1.0",
+        "source": "wikimedia",
+        "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=177505010",
+        "openverseId": "236af725-ab87-40f8-85dc-759494d2f0f4",
+        "openverseUrl": "https://openverse.org/image/236af725-ab87-40f8-85dc-759494d2f0f4"
+      }
+    }
+  ]
+}
