@@ -5,8 +5,6 @@ professeur et sessions live en classe.
 
 **En ligne :** https://easypz.fr/ · Fiche portfolio : https://alexisld.fr/
 
-![CI](https://img.shields.io/github/actions/workflow/status/AlexisLD-DEV/easypz/ci.yml?branch=main&label=CI%20%26%20E2E)
-![Deploy](https://img.shields.io/github/actions/workflow/status/AlexisLD-DEV/easypz/deploy-production.yml?label=Production%20deploy)
 ![React](https://img.shields.io/badge/React-19-blue)
 ![TypeScript](https://img.shields.io/badge/TypeScript-strict-blue)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-Workers%20%2F%20D1%20%2F%20R2-orange)
@@ -195,6 +193,11 @@ npm run deploy
 ISC — voir [LICENSE](LICENSE).
 
 ## À propos de ce dépôt
+
+Les vérifications tournent en local et se rejouent à l'identique : `npm test`, `npx tsc --noEmit`,
+`npm run build` et `npx playwright test` (desktop + mobile). Les workflows GitHub Actions du
+dépôt privé (CI, déploiement Cloudflare) ne sont pas repris ici : ils dépendent de secrets de
+production.
 
 Code publié à titre de démonstration technique (React 19 + TypeScript strict côté client,
 Cloudflare Workers / D1 / R2 côté serveur, E2E Playwright). L'historique de développement
