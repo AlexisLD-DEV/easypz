@@ -32,27 +32,47 @@ export type QuizCoverMeta = {
   label: string;
 };
 
-// Pick a cover image matched to the quiz level, topic or title. The images are
-// royalty-free (Unsplash / Pexels licence) and bundled in /public/quiz-covers.
-export function quizCoverMeta(quiz: PublicQuizSummary, card: { title: string; tags: string[] }): QuizCoverMeta {
-  const subject = [card.title, card.tags.join(" "), quiz.level].join(" ").toLowerCase();
+const coverFallbacks: QuizCoverMeta[] = [
+  ["society", "Society"], ["city", "City"], ["media", "Media"], ["digital", "Digital"],
+  ["history", "History"], ["reading", "Reading"], ["listening", "Listening"], ["sport", "Sport"],
+  ["creativity", "Creativity"], ["work", "Work"], ["family", "Family"], ["daily", "Daily"],
+  ["game", "Game"], ["level", "Level"], ["verbs", "Verbs"], ["default", "Quiz"]
+].map(([name, label]) => ({ image: `/quiz-covers/${name}.jpg`, label }));
+
+// Original illustrations created for EasyPZ, bundled in /public/quiz-covers.
+// No external licence or attribution required.
+export function quizCoverMeta(
+  quiz: PublicQuizSummary,
+  card: { title: string; tags: string[] },
+  used?: Set<string>
+): QuizCoverMeta {
+  const thematic = thematicQuizCoverMeta(quiz, card);
+  const chosen = used?.has(thematic.image)
+    ? coverFallbacks.find((cover) => !used.has(cover.image)) ?? thematic
+    : thematic;
+  used?.add(chosen.image);
+  return chosen;
+}
+
+function thematicQuizCoverMeta(quiz: PublicQuizSummary, card: { title: string; tags: string[] }): QuizCoverMeta {
+  const subject = [card.title, card.tags.join(" "), quiz.level].join(" ").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
   const level = quiz.level.trim().toLowerCase();
 
   const wordToImage: Array<[RegExp, string, string]> = [
-    [/verb|past|preterit|participe|tense|go[^o]|irregular/, "verbs", "Verbs"],
-    [/reading|book|roman|story|histoire|lecture|vocab|word|mot|commonwealth/, "reading", "Reading"],
-    [/listen|audio|écout|écoute/, "listening", "Listening"],
-    [/game|jeu|fun|play/, "game", "Game"],
-    [/daily|routine|dai|morning|jour/, "daily", "Daily"],
-    [/digital|tech|internet|online|computer|climate|environment|ecolog/, "digital", "Digital"],
-    [/sport|athlet|football|tennis|olymp/, "sport", "Sport"],
-    [/media|fiction|realit|newspaper|journal|tv|film|cinema|presse/, "media", "Media"],
-    [/famil|génér|generat|parent|child|home/, "family", "Family"],
-    [/city|town|urbain|urban|neighbour|quarter|community|exchang|mobilit|space/, "city", "City"],
-    [/work|career|job|profess|employ|future/, "work", "Work"],
-    [/history|heritage|herit|past|memory|rememory|tradition|mémoire|territory/, "history", "History"],
-    [/art|creat|paint|music|design|power|protest|story|imagin|fiction/, "creativity", "Creativity"],
-    [/citizen|civic|right|démocra|democra|equal|inclus|diversit|politic|society|socia|identity|first imp|culture/, "society", "Society"],
+    [/\b(?:verbs?|verbes?|preterit|participes?|tenses?|irregular|irreguliers?)\b/, "verbs", "Verbs"],
+    [/\b(?:reading|books?|romans?|lecture|vocabulary|vocabulaire|words?|mots?|commonwealth)\b/, "reading", "Reading"],
+    [/\b(?:listening|listen|audio|ecoute)\b/, "listening", "Listening"],
+    [/\b(?:games?|jeux?|fun|play)\b/, "game", "Game"],
+    [/\b(?:daily|routines?|morning|quotidien|quotidienne)\b/, "daily", "Daily"],
+    [/\b(?:digital|technology|tech|internet|online|computers?|climate|environment|ecologie)\b/, "digital", "Digital"],
+    [/\b(?:sports?|athletics?|football|tennis|olympics?)\b/, "sport", "Sport"],
+    [/\b(?:media|reality|newspapers?|journal|journaux|tv|films?|cinema|presse|social media|reseaux sociaux)\b/, "media", "Media"],
+    [/\b(?:family|families|famille|generations?|parents?|children|child|home)\b/, "family", "Family"],
+    [/\b(?:city|cities|towns?|urbain|urban|neighbourhoods?|quarters?|community|communities|exchanges?|mobility|space)\b/, "city", "City"],
+    [/\b(?:work|careers?|jobs?|professions?|employment|future)\b/, "work", "Work"],
+    [/\b(?:history|histoire|heritage|past|memory|rememory|traditions?|memoire|territory)\b/, "history", "History"],
+    [/\b(?:arts?|creativity|creative|creation|painting|music|design|power|protest|story|stories|imagination|fiction)\b/, "creativity", "Creativity"],
+    [/\b(?:citizens?|citizenship|civic|rights?|democracy|democratie|equality|inclusion|diversity|politics|society|societe|identity|first impressions?|culture)\b/, "society", "Society"],
   ];
 
   for (const [pattern, image, label] of wordToImage) {
@@ -60,7 +80,7 @@ export function quizCoverMeta(quiz: PublicQuizSummary, card: { title: string; ta
   }
 
   // Any recognized level (A1–B2) maps to the study cover.
-  if (/(^|[^a-z])a[12]|(^|[^a-z])b[12]|beginner|debut|début|elem/.test(level)) {
+  if (/\b(?:[ab][12]|beginner|debutant|débutant|elementary|study)\b/.test(level)) {
     return { image: "/quiz-covers/level.jpg", label: "Level" };
   }
   return { image: "/quiz-covers/default.jpg", label: "Quiz" };

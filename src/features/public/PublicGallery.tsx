@@ -69,6 +69,8 @@ export function PublicGallery() {
     setFailedCoverKeys((current) => current.has(mediaKey) ? current : new Set(current).add(mediaKey));
   }
 
+  const usedCovers = new Set<string>();
+
   return (
     <section className="public-gallery">
       <section className="mobile-quiz-launcher" aria-label={t("gallery.quickStart")}>
@@ -143,7 +145,7 @@ export function PublicGallery() {
             const card = publicQuizCardView(quiz, locale);
             const levelLabel = visibleLevelLabel(quiz.level, card.visualTone);
             const coverImageUrl = card.coverMediaKey && !failedCoverKeys.has(card.coverMediaKey) ? questionImageUrl(card.coverMediaKey) : null;
-            const coverMeta = quizCoverMeta(quiz, { title: card.title, tags: card.tags });
+            const coverMeta = quizCoverMeta(quiz, { title: card.title, tags: card.tags }, usedCovers);
             return (
               <article
                 className={card.visualTone === "grammar" ? "public-quiz-card public-quiz-card-grammar" : "public-quiz-card"}
