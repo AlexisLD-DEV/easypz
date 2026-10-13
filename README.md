@@ -1,6 +1,5 @@
 # EasyPZ
 
-[![CI](https://github.com/AlexisLD-DEV/easypz/actions/workflows/ci.yml/badge.svg)](https://github.com/AlexisLD-DEV/easypz/actions/workflows/ci.yml)
 [![License: ISC](https://img.shields.io/badge/license-ISC-blue.svg)](LICENSE)
 [![Node.js](https://img.shields.io/badge/node-22.23.2-339933.svg)](.nvmrc)
 
