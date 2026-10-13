@@ -112,7 +112,6 @@ export function QuizEditor() {
     return () => {
       if (autoSaveTimerRef.current) clearTimeout(autoSaveTimerRef.current);
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [draft]);
 
   const activeQuestion = draft.questions[activeIndex] ?? draft.questions[0];

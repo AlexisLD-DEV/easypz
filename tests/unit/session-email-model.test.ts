@@ -16,8 +16,8 @@ describe("session email model", () => {
   });
 
   it("formats success and configuration messages for the teacher", () => {
-    expect(emailSummaryStatusMessage({ sentTo: "alexis@ledeunf.fr" }, labels))
-      .toBe("Recap envoye a alexis@ledeunf.fr.");
+    expect(emailSummaryStatusMessage({ sentTo: "prof@example.org" }, labels))
+      .toBe("Recap envoye a prof@example.org.");
     expect(emailSummaryStatusMessage({ error: "email_not_configured" }, labels))
       .toBe("Email non configure : ajoute la cle Resend gratuite dans Cloudflare.");
     expect(emailSummaryStatusMessage({ error: "email_send_failed" }, labels))

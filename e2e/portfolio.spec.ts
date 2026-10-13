@@ -2,7 +2,6 @@ import { expect, test, type APIRequestContext } from "@playwright/test";
 
 const TEACHER_EMAIL = process.env.E2E_TEACHER_EMAIL ?? "e2e@easypz.fr";
 const TEACHER_PASSWORD = process.env.E2E_TEACHER_PASSWORD ?? "e2e-strong-password";
-const BASE = "http://127.0.0.1:5173";
 
 let sessionCookie = "";
 

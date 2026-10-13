@@ -18,6 +18,10 @@ export function isProtectedLiveSocketRequest(request: Request, url = new URL(req
   return role === "teacher" || role === "board";
 }
 
+/**
+ * Checks Origin, then Referer, against request/configured origins. Headerless non-browser
+ * clients are allowed unless Fetch Metadata marks them cross-site.
+ */
 export function assertTrustedRequestOrigin(request: Request, env: Env) {
   const trustedOrigins = allowedOrigins(request, env);
   const origin = request.headers.get("Origin");

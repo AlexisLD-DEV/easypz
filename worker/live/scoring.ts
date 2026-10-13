@@ -1,3 +1,4 @@
+/** Normalizes case, accents, slash spacing and whitespace for answer comparison. */
 export function normalizeShortAnswer(value: string) {
   return value
     .trim()
@@ -8,6 +9,7 @@ export function normalizeShortAnswer(value: string) {
     .replace(/\s+/g, " ");
 }
 
+/** Accepts exact normalized forms or known tokens covering an entire multi-token accepted answer. */
 export function isAcceptedShortAnswer(answer: string, acceptedAnswers: string[]) {
   const normalized = normalizeShortAnswer(answer);
   const acceptedCandidates = [
@@ -27,6 +29,7 @@ function shortAnswerTokens(value: string) {
   return value.split(/[\s/,]+/).map((token) => token.trim()).filter(Boolean);
 }
 
+/** Awards correct answers 60–100% of maximum points, with a clamped response-speed bonus. */
 export function scoreAnswer(isCorrect: boolean, responseMs: number, timeLimitSeconds: number, maxPoints: number) {
   if (!isCorrect) return 0;
   const limitMs = timeLimitSeconds * 1000;

@@ -8,7 +8,7 @@ CREATE TABLE allowed_emails (
 );
 
 INSERT INTO allowed_emails (email, role, created_by)
-VALUES ('alexis@ledeunf.fr', 'admin', 'system');
+VALUES ('prof@example.org', 'admin', 'system');
 
 CREATE TABLE users (
   id TEXT PRIMARY KEY,

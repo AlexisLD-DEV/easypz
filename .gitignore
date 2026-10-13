@@ -12,3 +12,6 @@ backups/
 !.dev.vars.example
 test-results/
 playwright-report/
+.tmp/
+wrangler.private.jsonc
+MISSION-TEMP.md

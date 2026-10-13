@@ -5,6 +5,7 @@ import { isCorrectFillBlankAnswer } from "./fillBlank";
 import { isCorrectMatchingAnswer } from "./matching";
 import { isCorrectWordOrderAnswer } from "./wordOrder";
 
+/** Validates phase, question, duplicate answers and timing before scoring, without mutating state. */
 export function evaluateLiveAnswer(state: LiveRoomState, input: LiveAnswerInput): LiveAnswerEvaluation {
   const question = state.questions[state.currentQuestionIndex];
   if (!question || question.id !== input.questionId || state.status !== "question" || state.questionStartedAt === null) {
@@ -40,6 +41,7 @@ export function evaluateLiveAnswer(state: LiveRoomState, input: LiveAnswerInput)
   };
 }
 
+/** Mutates room totals for an accepted answer; callers must evaluate duplicates before applying it. */
 export function applyAcceptedAnswer(state: LiveRoomState, answer: Extract<LiveAnswerEvaluation, { accepted: true }>) {
   const participant = state.participants[answer.participantId];
   if (!participant) return state;
@@ -58,6 +60,7 @@ export function applyAcceptedAnswer(state: LiveRoomState, answer: Extract<LiveAn
   return state;
 }
 
+/** Orders scores descending, breaking ties by display name with French collation. */
 export function rankLeaderboard(participants: Record<string, LeaderboardRow>) {
   return Object.values(participants).sort((left, right) => {
     if (right.score !== left.score) return right.score - left.score;

@@ -1,3 +1,4 @@
+/** Serializes asynchronous room mutations; a rejected task still releases the next caller. */
 export function createSerialTaskQueue() {
   let tail = Promise.resolve();
 

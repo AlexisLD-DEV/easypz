@@ -41,6 +41,11 @@ const coverFallbacks: QuizCoverMeta[] = [
 
 // Original illustrations created for EasyPZ, bundled in /public/quiz-covers.
 // No external licence or attribution required.
+/**
+ * Assigns a thematic cover, reserving its image in the caller's per-render `used` set.
+ * Collisions use the first unused bundled cover; after all 16 are used, themes may repeat.
+ * Assignment is deterministic for a fixed quiz order; omit `used` for theme-only lookup.
+ */
 export function quizCoverMeta(
   quiz: PublicQuizSummary,
   card: { title: string; tags: string[] },
@@ -54,6 +59,11 @@ export function quizCoverMeta(
   return chosen;
 }
 
+/**
+ * Matches normalized title, tags and level in priority order, then falls back to level/default.
+ * Whole-word, specific theme patterns prevent broad substring matches from sending unrelated
+ * quizzes to the same illustration. Actual uniqueness is enforced by quizCoverMeta's used set.
+ */
 function thematicQuizCoverMeta(quiz: PublicQuizSummary, card: { title: string; tags: string[] }): QuizCoverMeta {
   const subject = [card.title, card.tags.join(" "), quiz.level].join(" ").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
   const level = quiz.level.trim().toLowerCase();
@@ -86,6 +96,7 @@ function thematicQuizCoverMeta(quiz: PublicQuizSummary, card: { title: string; t
   return { image: "/quiz-covers/default.jpg", label: "Quiz" };
 }
 
+/** Tolerates malformed stored JSON and discards empty or non-string tags. */
 export function parseQuizTags(value: string): string[] {
   try {
     const parsed = JSON.parse(value) as unknown;
@@ -104,6 +115,7 @@ export function parseQuizQuestionTypes(value?: string | null): string[] {
     .filter(Boolean);
 }
 
+/** Requires choice-only questions and at least two choices per question on average. */
 export function isTouchFriendlyQuiz(quiz: PublicQuizSummary) {
   const questionTypes = parseQuizQuestionTypes(quiz.question_types);
   const questionCount = quiz.question_count ?? 0;
@@ -143,6 +155,7 @@ export function galleryCountLabel(count: number, isLoading: boolean, labels: { l
   return (count === 1 ? labels.one : labels.many).replace("{count}", String(count));
 }
 
+/** Applies the French irregular-verbs presentation while preserving stored copy for other quizzes. */
 export function publicQuizCardView(quiz: PublicQuizSummary, locale: "fr" | "en"): PublicQuizCardView {
   const tags = parseQuizTags(quiz.tags_json);
   const isIrregularVerbsQuiz = quiz.slug.includes("irregular-verbs") || quiz.title.toLowerCase().includes("irregular verbs");

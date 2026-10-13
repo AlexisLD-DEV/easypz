@@ -39,11 +39,11 @@ const results = buildSessionResults({
 describe("buildSessionSummaryEmail", () => {
   it("builds a teacher recap with escaped HTML, summary metrics, review points and results link", () => {
     const email = buildSessionSummaryEmail(results, {
-      to: "alexis@ledeunf.fr",
-      resultsUrl: "https://quiz.ledeunf.fr/sessions/session-1/results"
+      to: "prof@example.org",
+      resultsUrl: "https://quiz.example.org/sessions/session-1/results"
     });
 
-    expect(email.to).toBe("alexis@ledeunf.fr");
+    expect(email.to).toBe("prof@example.org");
     expect(email.subject).toBe("Recap EasyPZ - Irregular verbs <test> (ABCD)");
     expect(email.html).toContain("EasyPZ");
     expect(email.html).toContain("Irregular verbs &lt;test&gt;");
@@ -51,7 +51,7 @@ describe("buildSessionSummaryEmail", () => {
     expect(email.html).toContain("Reussite globale");
     expect(email.html).toContain("Past of eat?");
     expect(email.html).toContain("eated x2");
-    expect(email.html).toContain("https://quiz.ledeunf.fr/sessions/session-1/results");
+    expect(email.html).toContain("https://quiz.example.org/sessions/session-1/results");
     expect(email.text).toContain("Participants: 3");
     expect(email.text).toContain("Questions a revoir: 1");
   });
@@ -65,13 +65,13 @@ describe("sendSessionSummaryEmail", () => {
       return Response.json({ id: "email-123" });
     });
     const email = buildSessionSummaryEmail(results, {
-      to: "alexis@ledeunf.fr",
-      resultsUrl: "https://quiz.ledeunf.fr/sessions/session-1/results"
+      to: "prof@example.org",
+      resultsUrl: "https://quiz.example.org/sessions/session-1/results"
     });
 
     const response = await sendSessionSummaryEmail({
       apiKey: "re_test_key",
-      from: "EasyPZ <quiz@ledeunf.fr>",
+      from: "EasyPZ <noreply@example.org>",
       fetcher
     }, email);
 
@@ -85,16 +85,16 @@ describe("sendSessionSummaryEmail", () => {
       "Content-Type": "application/json"
     });
     expect(JSON.parse(String(init?.body))).toMatchObject({
-      from: "EasyPZ <quiz@ledeunf.fr>",
-      to: ["alexis@ledeunf.fr"],
+      from: "EasyPZ <noreply@example.org>",
+      to: ["prof@example.org"],
       subject: "Recap EasyPZ - Irregular verbs <test> (ABCD)"
     });
   });
 
   it("throws a clear configuration error when Resend is not configured", async () => {
     const email = buildSessionSummaryEmail(results, {
-      to: "alexis@ledeunf.fr",
-      resultsUrl: "https://quiz.ledeunf.fr/sessions/session-1/results"
+      to: "prof@example.org",
+      resultsUrl: "https://quiz.example.org/sessions/session-1/results"
     });
 
     await expect(sendSessionSummaryEmail({ apiKey: "", from: "", fetcher: vi.fn() }, email))

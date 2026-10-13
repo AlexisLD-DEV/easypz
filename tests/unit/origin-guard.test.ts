@@ -11,7 +11,7 @@ const env = {
 } as Env;
 
 function request(path: string, init: RequestInit = {}) {
-  return new Request(`https://quiz.ledeunf.fr${path}`, init);
+  return new Request(`https://quiz.example.org${path}`, init);
 }
 
 describe("origin guard", () => {
@@ -37,7 +37,7 @@ describe("origin guard", () => {
   it("allows current request origin and configured app origin", () => {
     expect(() => assertTrustedRequestOrigin(request("/api/teacher/quizzes", {
       method: "POST",
-      headers: { Origin: "https://quiz.ledeunf.fr" }
+      headers: { Origin: "https://quiz.example.org" }
     }), env)).not.toThrow();
 
     expect(() => assertTrustedRequestOrigin(request("/api/teacher/quizzes", {
@@ -49,7 +49,7 @@ describe("origin guard", () => {
   it("allows matching referer when Origin is absent", () => {
     expect(() => assertTrustedRequestOrigin(request("/api/teacher/quizzes", {
       method: "POST",
-      headers: { Referer: "https://quiz.ledeunf.fr/dashboard" }
+      headers: { Referer: "https://quiz.example.org/dashboard" }
     }), env)).not.toThrow();
   });
 

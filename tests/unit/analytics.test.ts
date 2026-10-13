@@ -7,7 +7,7 @@ function analyticsEnv(): Env {
     DB: {
       prepare(sql: string) {
         return {
-          bind: (...values: unknown[]) => ({
+          bind: () => ({
             async first() {
               // requireUser reads the session → user.
               if (sql.includes("FROM auth_sessions")) {

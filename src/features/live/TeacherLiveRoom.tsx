@@ -93,7 +93,6 @@ export function TeacherLiveRoom({ sessionId }: { sessionId: string }) {
     }
     const timer = setTimeout(() => setExamTimeLeft((value) => (value === null ? null : value - 1)), 1000);
     return () => clearTimeout(timer);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [examTimeLeft]);
 
   function updateSettings(patch: Partial<LiveDisplaySettings>) {

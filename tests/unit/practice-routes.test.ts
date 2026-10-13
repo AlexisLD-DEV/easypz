@@ -14,7 +14,7 @@ function practiceEnv(state: PracticeDbState): Env {
     DB: {
       prepare(sql: string) {
         return {
-          bind: (...values: unknown[]) => ({
+          bind: () => ({
             async first() {
               if (sql.includes("FROM questions")) {
                 return {

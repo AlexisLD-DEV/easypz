@@ -21,7 +21,7 @@
       "custom_domain": true
     },
     {
-      "pattern": "quiz.ledeunf.fr",
+      "pattern": "quiz.example.org",
       "custom_domain": true
     }
   ],
@@ -33,7 +33,7 @@
     {
       "binding": "DB",
       "database_name": "quiz_english",
-      "database_id": "b4cc976b-2e8b-41e1-a7fe-a6ec6efc49de"
+      "database_id": "00000000-0000-0000-0000-000000000000"
     }
   ],
   "r2_buckets": [
@@ -57,8 +57,8 @@
     }
   ],
   "vars": {
-    "ADMIN_EMAIL": "alexis@ledeunf.fr",
+    "ADMIN_EMAIL": "prof@example.org",
     "APP_ORIGIN": "https://easypz.fr",
-    "EMAIL_FROM": "EasyPZ <quiz@ledeunf.fr>"
+    "EMAIL_FROM": "EasyPZ <noreply@example.org>"
   }
 }

@@ -16,7 +16,7 @@ if (!packPath) {
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const pack = JSON.parse(readFileSync(resolve(root, packPath), "utf8"));
-const ownerEmail = pack.ownerEmail ?? "alexis@ledeunf.fr";
+const ownerEmail = pack.ownerEmail ?? "prof@example.org";
 const nowSql = "CURRENT_TIMESTAMP";
 const statements = [
   "PRAGMA foreign_keys = ON;"

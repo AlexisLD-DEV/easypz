@@ -51,7 +51,7 @@ function createRateLimitEnv(options: { missingTable?: boolean } = {}) {
 }
 
 function request(path = "/api/auth/login") {
-  return new Request(`https://quiz.ledeunf.fr${path}`, {
+  return new Request(`https://quiz.example.org${path}`, {
     headers: { "CF-Connecting-IP": "203.0.113.10" }
   });
 }

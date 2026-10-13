@@ -3,7 +3,7 @@ import { sessionCookieHeader } from "../../worker/auth/cookies";
 
 describe("sessionCookieHeader", () => {
   it("keeps Secure on HTTPS requests", () => {
-    const header = sessionCookieHeader("abc", new Request("https://quiz.ledeunf.fr/login"));
+    const header = sessionCookieHeader("abc", new Request("https://quiz.example.org/login"));
 
     expect(header).toContain("Secure");
   });
